@@ -1,0 +1,45 @@
+body{
+    background-color: #E3E9FF;
+}
+.Back{
+    align-items: center;
+}
+.ToDoList{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 2rem;
+}
+.headList{
+    position: relative;
+    text-align: left;
+    background-color: #AF7EEB;
+    color: white;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.list{
+    margin-top: 1rem;
+    padding: 2rem;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;  
+    justify-content: space-between;
+}
+.iconflex{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    position: relative;
+    height: 2rem;
+    width:2rem;
+}
